@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = "A version control system which allows changes to code projects to be tracked.  It prevents bugs and loss of progress and allows viewing of long history via snapshots."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +18,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = "A website used to save git repositories to allow collaboration from anywhere."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +27,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = "Initializes a local repository in the current folder. Only needs to be done once per project."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +36,7 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = "Creates a copy/clone of an existing repository into a different specified folder."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +45,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = "Display the state of the working directory and staging area.  Shows which changes have and have not been saved and which files aren't being tracked."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +57,8 @@
 */
 
 //CODE HERE
+const gitAddDefinition = "Finds all changes made to your code and let's git know you want to include them in the next commit."
+const gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +70,8 @@
 */
 
 //CODE HERE
-
+const gitCommitDefinition = "A snapshot of a repository at a specific point in time."
+const gitCommitCode = 'git commit -m "your message here"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +80,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = "Transfers commits from your local repository to a remote repository."
